@@ -1,9 +1,6 @@
-# w266_final_project_MediQA2023
-GitHub Repo for w266 Final Project (MediQA-2023)
-
-
 # Advancing Clinical NLP with RoBERTa & BART
-##From Classification to Summarization: Unveiling New Insights
+## From Classification to Summarization: Unveiling New Insights
+>  w266_final_project_MediQA2023
 
 ### Description
 This repository hosts the materials for the research project titled "Advancing Clinical NLP with RoBERTa & BART", which focuses on the classification and summarization of medical dialogues using advanced NLP techniques.
@@ -18,7 +15,7 @@ This repository hosts the materials for the research project titled "Advancing C
 
 In the main directory, you will find a comprehensive list of key notebooks, each named in a date, step, topic format for easy navigation and understanding of the project's progression.
 
-*** Project Overview
+### Project Overview
 This project is a comprehensive effort to push the boundaries of clinical NLP by focusing on medical dialogue classification and summarization. Aligned with the MediQA2023-Chat challenge, it demonstrates how to achieve competitive NLP results under constraints such as limited computational resources and stringent data privacy requirements.
 
 ### Getting Started
