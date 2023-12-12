@@ -1,0 +1,151 @@
+Batch,Model,Timestamp,TestDataRow,Dialog,Generated_Summary,Reference_Summary,ROUGE-1,ROUGE-2,ROUGE-L,BERTScore-P,BERTScore-R,BERTScore-F1,BLEURT,Agg-Score
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:25,0,"Doctor: Good afternoon, sir. Did you just have a birthday? I don't have my chart with me right now, the nurse is bringing it. 
+Patient: Good afternoon, sir. Yes, I just turned fifty five. 
+Doctor: You identify as African American, correct? 
+Patient: Yes, that's right. 
+Doctor: When was your last visit, sir? 
+Patient: Um, it was on July twenty ninth two thousand eight. 
+Doctor: Yes, I see. Did we go over your M R I results? 
+Patient: No, I was having those new seizures, remember?
+Doctor: Yes, I do. Well, the M R I demonstrated right contrast temporal mass. 
+Patient: What exactly does that mean, doctor? 
+Doctor: Well, given this mass, and your new seizures, I am concerned that this could be a high grade glioma, we'll need to do more tests.","The patient, a 55-year-old African American male, had his last visit on 07/29/2008 and has experienced new seizures recently. His MRI revealed a right contrast-enhancing temporal mass. The doctor is concerned the mass might be a high-grade glioma and additional testing is needed.","The patient is a 55-year-old African-American male that was last seen in clinic on 07/29/2008 with diagnosis of new onset seizures and an MRI scan, which demonstrated right contrast-enhancing temporal mass.  Given the characteristics of this mass and his new onset seizures, it is significantly concerning for a high-grade glioma.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:26,1,"Doctor: Any medical issues running in your families? 
+Patient: Oh yes, stroke. 
+Doctor: Anything else? 
+Patient: Sleep apnea.",Family history includes stroke and sleep apnea.,Positive for stroke and sleep apnea.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:29,2,"Doctor: Any pain in your muscles? 
+Patient: No, no pain.
+Doctor: How about joint pain? 
+Patient: Um no, I don't feel any joint pain.
+Doctor: Okay, good.
+Doctor: Do you feel any stiffness or weakness in your muscle? 
+Patient: Um, nothing like that.
+Doctor: Do you have any back pain? 
+Patient: No.
+Doctor: Okay.","No musculoskeletal complaints. No myalgias, arthralgias, stiffness, weakness, or back pain.","MSK: Negative myalgia, negative joint pain, negative stiffness, negative weakness, negative back pain.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:31,3,"Doctor: Anyone in family with any blood or heart issues?
+Patient: No. 
+Doctor: Anyone diabetic or with any other issues in family? 
+Patient: No.","Family history is non-contributory with no known blood, heart, or diabetic issues.",Noncontributory.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:33,4,"Doctor: Can you tell me about your family? Did anyone in your family have any medical problems? 
+Patient: Oh yeah. My father died of thoracic aortic aneurysm. He was seventy one years old at that time. 
+Doctor: Anything for anyone else? 
+Patient: Yeah, my mom died of stroke. She was around eighty one.",Father died of thoracic aortic aneurysm at 71. Mother died of stroke at 81.,"Father died of a thoracic aortic aneurysm, age 71. Mother died of stroke, age 81.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:35,5,"Doctor: It is good to see you again. How have you been?
+Patient: It is good to see you too. I have been good. 
+Doctor: Have anything changes to your medical history or social history since the last time I saw you? 
+Patient: No. No changes.",Social and medical history stable since last visit.,Reviewed and remained unchanged.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:39,6,"Guest_clinician: How old is the patient? 
+Doctor: Seventy seven. 
+Guest_clinician: She was sedated with Ativan, correct? 
+Doctor: Yeah, we had to sedate her. She wasn't doing so well upon arrival and appeared short of breath. She couldn't give us a history and we immediately had Xray come in to scan her lungs. 
+Guest_clinician: Did they find anything? 
+Doctor: The report showed what we believe to be free air under her right diaphragm.","Patient is seventy-seven years old. Sedated with Ativan due to initial distress and shortness of breath upon arrival, preventing a detailed history. A lung X-ray revealed suspected free air under the right diaphragm.",The patient is a 77-year-old female who is unable to give any information.  She has been sedated with Ativan and came into the emergency room obtunded and unable to give any history.  On a chest x-ray for what appeared to be shortness of breath she was found to have what was thought to be free air under the right diaphragm.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:46,7,"Doctor: What is your family medical history? 
+Patient: My parents do not have any health conditions. I have two half brothers that are in good health as well. 
+Doctor: How old are your brothers? 
+Patient: Twenty six and twenty eight. My grandmother on my mom's side had D V T in her leg. I think she was in her forty's.
+Doctor: Any family history of diabetes? 
+Patient: I think my aunt from my dad's side of the family and my cousins on my mom's side of the family are diabetic? Oh. My great grandfather had bone cancer.  He was in his eighties. My mom's brother was recently diagnosed with leukemia. He is around fifty years old. Then my dad's dad had colon cancer at seventy three. He had it since he was sixty eight, though. I think that is it.",Sure. The patient's parents and two half-brothers are without any reported health conditions. The maternal grandmother had deep vein thrombosis (DVT) in her forties. There's a family history of diabetes in an aunt on the father's side and cousins on the mother's side. The great-grandfather had bone cancer in his eighties. An uncle on the mother's side was recently diagnosed with leukemia at around age fifty. The paternal grandfather had colon cancer first diagnosed at age sixty,"Two half-brothers, ages 26 and 28, both in good health.  Parents are in good health.  A maternal great-grandmother had a deep venous thrombosis (DVT) of leg in her 40s.  A maternal great-uncle developed leukemia around age 50.  A maternal great-grandfather had bone cancer around age 80.  His paternal grandfather died of colon cancer at age 73, which he had had since age 68.  Adult-onset diabetes is present in distant relatives on both sides.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:50,8,"Doctor: Are you still working, sir? 
+Patient: No, I am retired now. I worked for twenty years in social security administration. 
+Patient: Now I just enjoy my life with my wife, we travel a lot. I like to be extremely active. 
+Doctor: That's awesome. 
+Doctor: Do you drink?
+Patient: Yes, but only socially. 
+Doctor: How about smoking or any drugs?
+Patient: No, I don't smoke or do any kind of drugs or anything. 
+Doctor: Okay.","Retired from the Social Security Administration after 20 years. The patient enjoys an active lifestyle, including traveling with his wife. He drinks socially but denies smoking and drug use.",He is retired from the social security administration x 20 years.  He travels a lot and is extremely active.  He does not smoke.  He consumes alcohol socially only.  He does not use illicit drugs.  He is married.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:51,9,"Doctor: Do you know about any allergies from any medications?
+Patient: No.",None.,No known drug allergies.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:27:56,10,"Doctor: Good afternoon, ma'am. Can you tell me more about yourself, please? 
+Patient: Well, I'm seventy nine, and I'm an African American women. 
+Doctor: Did the nurses get your height? 
+Patient: No, they didn't. 
+Doctor: How tall are you? 
+Patient: I'm five foot three inches. 
+Doctor: Thank you, and how much do you weigh? 
+Patient: Um, I'm about one hundred ninety seven pounds. 
+Doctor: Great, and do you have any major medical conditions that I should know about?
+Patient: I've had type two diabetes since nineteen eighty three. 
+Doctor: Thank you, and do you have any allergies to any medicine? 
+Patient: No, not that I know of.","The patient is a 79-year-old African American woman, measuring 5 feet 3 inches in height and weighing 197 pounds. She reports having type 2 diabetes since 1983 and states that she has no known medication allergies.",The patient is a 79-year-old African-American female with a self reported height of 5 foot 3 inches and weight of 197 pounds.  She was diagnosed with type 2 diabetes in 1983.  She is not allergic to any medicines.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:02,11,"Doctor: Did he get his B C G vaccine?
+Guest_family: Yes, he did back in the Philippines before starting his elementary school. 
+Doctor: Okay, did you have his immunization records?
+Guest_family_2: Yes, we submitted it at the front desk.
+Doctor: Okay, how long has he been complaining of uneasiness in his stomach?
+Guest_family_2: For a few days.
+Doctor: Any history of liver problems or gallbladder stones?
+Guest_family: No, he had his physical and blood tests and everything came out normal.
+Doctor: Okay, good. Any fever or chills?
+Guest_family: No.
+Doctor: Any history of ulcers?
+Guest_family_2: No.","IMMUNIZATION: Patient received BCG vaccine in the Philippines. Immunization records submitted. GASTROINTESTINAL: Patient complains of stomach uneasiness for a few days; no history of liver problems or gallbladder stones, recent physical and blood tests normal. CONSTITUTIONAL: No fever or chills. GASTROINTESTINAL: No history of ulcers.","Non-contributory. The patient denied fever, chills, ulcers, liver disease or history of gallstones. Vaccines: The patient was vaccinated with BCG before starting elementary school in the Philippines.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:06,12,"Doctor: What's your living situation like? 
+Patient: I uh live alone, but I can count on my family and friends to keep me company. 
+Doctor: Do they serve as a good support system for you? 
+Patient: Yeah, I'd say so. 
+Doctor: And as for drinking and drugs, do you drink or use tobacco products? 
+Patient: I smoke, but I don't drink. 
+Doctor: You know smoking is bad for you, right? 
+Patient: Yeah, yeah. I've heard this talk one too many times. I'll try to quit eventually.","The patient lives alone but has a supportive network of family and friends. The patient smokes but does not consume alcohol and acknowledges the health warnings associated with smoking, expressing a non-committal intention to quit in the future.","He is a tobacco user.  He does not drink.  He lives alone, but has family and social support to look on him.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:10,13,"Doctor: How've you been feeling lately? 
+Patient: Good, I guess. 
+Doctor: How've you been managing your anxiety? 
+Patient: I recently started therapy and I'm scheduled to see a psychiatrist sometime next week. 
+Doctor: Good, good. And any problems with your blood pressure? 
+Patient: I've been taking my blood pressure meds so it's been fine.",The patient reports feeling generally good and is actively managing anxiety by beginning therapy and having a scheduled appointment with a psychiatrist. Blood pressure is controlled with the aid of medication.,"Generalized anxiety and hypertension, both under fair control.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:12,14,"Doctor: Hello, how are you today?
+Patient: I am doing well. 
+Doctor: Great. What would you like to bring up today?
+Patient: I have some questions about my liver. 
+Doctor: Alright. Let's start with the basics. Do you drink? Excessive drinking can cause issues with the liver.
+Patient: No, I do not. I take a lot of Tylenol for pain and I am worried it is effecting my liver. 
+Doctor: Okay, that is a common concern. We can address that today. Do you happen to smoke?
+Patient: No, I do not smoke.",The patient does not drink or smoke. They have concerns about their liver due to frequent Tylenol use for pain.,Negative for use of alcohol or tobacco.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:17,15,"Doctor: Hello, I will ask you a few questions. 
+Patient: Hm.
+Doctor: Any headaches or breathlessness?
+Patient: Nope.
+Doctor: Any skin problems?
+Patient: Nope, nothing new. 
+Doctor: Any pain in the chest or anywhere else?
+Patient: Nope. 
+Doctor: Any other problem that I should know. 
+Patient: I can't think of any.",CONSTITUTIONAL: Patient denies headaches and breathlessness. INTEGUMENTARY: No new skin issues reported. CARDIOVASCULAR: No reported chest pain. MUSCULOSKELETAL: Patient denies any pain. Patient reports no additional health concerns at this time.,Not otherwise pertinent.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:19,16,"Doctor: Did you ever see that your skin is turning blue or greyish in color?
+Patient: Not that I notice. 
+Doctor: Any swelling like there is water filled inside? 
+Patient: Nope.
+Doctor: Have you ever noticed any kind of swelling in your fingers or toes?
+Patient: No.","SKIN: No cyanosis, edema, or clubbing noted.","EXTREMITIES: No cyanosis, clubbing or edema.",,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:22,17,"Doctor: Any health problems or health conditions? 
+Patient: No. I have never had any health issues. Other than why I am why I am her today. 
+Doctor: Lucky you. No prior surgeries? 
+Patient: I know right? No, I have never had any surgeries.","The patient reports no health problems or conditions and has not undergone any surgeries, except for the current reason for the visit.",She has not had any prior surgeries.  Her general health has been excellent except for the above-indicated problems.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:27,18,"Patient: I am always tired, I don't know what to do.
+Doctor: Yeah, your fatigue can be due to so many reasons. You have many underlying conditions. You have hypertension, high cholesterol, and osteoarthritis. All this can add up and lead to fatigue. I think you need to really take care of your health.","The patient is experiencing fatigue, which the doctor suggests may be related to their multiple underlying health conditions including hypertension, high cholesterol, and osteoarthritis. The doctor stresses the importance of taking care of their health.",1.  Hypertension. 2.  Hypercholesterolemia. 3.  Osteoarthritis. 4.  Fatigue.,,,,,,,,
+6NPQ5,gpt-4-1106-preview,2023-12-02 08:28:35,19,"Doctor: Nice to see you again, miss. I see your last visit was back on August tenth two thousand and four. How are you?
+Patient: Hi, doctor. Nice to see you again as well. I've been doing fine. 
+Doctor: How is your husband doing? 
+Patient: He's doing fine. Just working a lot. 
+Doctor: Great! I hope the work isn't getting him too stressed out. Also, I need to fill out the ethnicity section in your paperwork; it seems to be missing. What ethnicity do you identify as?
+Patient: Oh, yes. I am white. 
+Doctor: Thanks! Are you still working too? 
+Patient: Yeah, I am. My secretary position has been super stressful lately. 
+Doctor: I understand. How is your acne doing? 
+Patient: I think it's been getting better, but I've had this rash for the last two months on my chest, stomach, neck, and back. 
+Doctor: I see. Let me take a look at this rash. I see you have these small folliculitis lesions that are pus filled bumps centered on your hair. 
+Patient: Oh, no. Is that bad? 
+Doctor: It's treatable. It seems like it's happening because your acne is flaring up. 
+Patient: Oh, really. Is it because I stopped my medication for the last three days? 
+Doctor: I forgot what I prescribed you. Let me take a look at my notes. Oh, I see. I prescribed you five hundred milligrams of Amoxicillin to take twice a day and a point one Tazorac cream. Have those been working? 
+Patient: Yeah, they have. I noticed my face started to get better. 
+Doctor: Continue to take those and try not to stop it. Have you been trying anything else? 
+Patient: I actually started going to Healing Waters to get photofacials. 
+Doctor: I see. Has that been helpful? 
+Patient: Yeah, it has, but I want a faster treatment. I'm only forty nine and want to look younger. Are there any procedures or skin care products that can be used to help my face look better?","A 49-year-old white female with a history of acne returned for a follow-up visit to the dermatologist. She last visited the clinic on 08/10/2004. She reported that her acne is improving; however, she has been experiencing a rash across her chest, stomach, neck, and back for the past two months. The doctor observed small folliculitis lesions, suggesting an acne flare-up could be the cause.
+
+The patient mentioned that she has been out of her acne medication","The patient is a 49-year-old white female, established patient to Dermatology, last seen in the office on 08/10/2004.  She comes in today for reevaluation of her acne plus she has had what she calls a rash for the past two months now on her chest, stomach, neck, and back.  On examination, this is a flaring of her acne with small folliculitis lesions.  The patient has been taking amoxicillin 500 mg b.i.d. and using Tazorac cream 0.1, and her face is doing well, but she has been out of her medicine now for three days also.  She has also been getting photofacials at Healing Waters and was wondering about what we could offer as far as cosmetic procedures and skin care products, etc.  The patient is married.  She is a secretary.",,,,,,,,

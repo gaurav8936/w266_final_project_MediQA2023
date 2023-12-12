@@ -1,0 +1,16 @@
+Batch,Model,Timestamp,TestDataRow,Dialog,Generated_Summary,Reference_Summary,ROUGE-1,ROUGE-2,ROUGE-L,BERTScore-P,BERTScore-R,BERTScore-F1,BLEURT,Agg-Score
+HFS1Z,gpt-4-1106-preview,2023-12-02 09:39:05,0,"Doctor: Good afternoon, sir. Did you just have a birthday? I don't have my chart with me right now, the nurse is bringing it. 
+Patient: Good afternoon, sir. Yes, I just turned fifty five. 
+Doctor: You identify as African American, correct? 
+Patient: Yes, that's right. 
+Doctor: When was your last visit, sir? 
+Patient: Um, it was on July twenty ninth two thousand eight. 
+Doctor: Yes, I see. Did we go over your M R I results? 
+Patient: No, I was having those new seizures, remember?
+Doctor: Yes, I do. Well, the M R I demonstrated right contrast temporal mass. 
+Patient: What exactly does that mean, doctor? 
+Doctor: Well, given this mass, and your new seizures, I am concerned that this could be a high grade glioma, we'll need to do more tests.","The patient is a 55-year-old African American male who had his last visit on July 29, 2008. He recently experienced new onset seizures and an MRI has revealed a right contrast-enhanced temporal mass. The doctor is concerned that the mass may be a high-grade glioma and indicates that further testing will be necessary to determine the diagnosis.","The patient is a 55-year-old African-American male that was last seen in clinic on 07/29/2008 with diagnosis of new onset seizures and an MRI scan, which demonstrated right contrast-enhancing temporal mass.  Given the characteristics of this mass and his new onset seizures, it is significantly concerning for a high-grade glioma.",,,,,,,,
+HFS1Z,gpt-4-1106-preview,2023-12-02 09:39:07,1,"Doctor: Any medical issues running in your families? 
+Patient: Oh yes, stroke. 
+Doctor: Anything else? 
+Patient: Sleep apnea.",Stroke and sleep apnea in family medical history.,Positive for stroke and sleep apnea.,,,,,,,,
