@@ -33,6 +33,9 @@ Relevant libraries as outlined in the notebooks (e.g., pandas, NumPy, SBert)
 ### Models
 Public models on HuggingFace at https://huggingface.co/zibajoon
 
+### Primary References
+GitHub repo: https://github.com/abachaa/MEDIQA-Chat-2023
+
 ### Contributions
 This research project is managed by Gaurav Narasimhan. Contributions, suggestions, and discussions are warmly welcomed.
 
