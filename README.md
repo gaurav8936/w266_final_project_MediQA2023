@@ -9,12 +9,12 @@ This repository hosts the materials for the research project titled "Advancing C
 ### Repository Structure
 * 01.Paper_Submitted: Contains the final paper submitted for the project.
 * 02.Shortlist_Notebooks_for_Paper: A curated collection of Jupyter notebooks integral to the development of the final paper.
-* 10.TaskA_Summarization_Metrics: Notebooks and resources related to tracking the progression of summarization metrics in Task A.
+* 03.Notebooks_by_Step: Contains primary notebooks for each step of the analysis (the Archive folder is not uploaded). 
+* 10.Tracking_Metrics: Csv files generated to follow the performance of different models.
 * 11.Source_Data: The raw data used in the project.
-* 12.SBert_Embeddings_Dialogue: Evaluating SBert embeddings and their impact on the dialogue data.
 * 13.Instructor_Embeddings_Dialogue: Evaluating Instructor Embeddings and their impact on the dialogue data.
 
-In the main directory, you will find a comprehensive list of key notebooks, each named in a date, step, topic format for easy navigation and understanding of the project's progression.
+A comment on the naming convention for all notebooks. I generally follow a date-step-topic-version structure with data in the yyyymmdd format. This makes it visually easier to follow the progression of analysis especially when projects transition from one calendar year to the next.
 
 ### Project Overview
 This project is a comprehensive effort to push the boundaries of clinical NLP by focusing on medical dialogue classification and summarization. Aligned with the MediQA2023-Chat challenge, it demonstrates how to achieve competitive NLP results under constraints such as limited computational resources and stringent data privacy requirements.
