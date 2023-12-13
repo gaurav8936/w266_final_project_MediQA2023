@@ -30,6 +30,9 @@ Python 3.x
 Jupyter Notebook
 Relevant libraries as outlined in the notebooks (e.g., pandas, NumPy, SBert)
 
+### Models
+Public model on HuggingFace at https://huggingface.co/zibajoon
+
 ### Contributions
 This research project is managed by Gaurav Narasimhan. Contributions, suggestions, and discussions are warmly welcomed.
 
